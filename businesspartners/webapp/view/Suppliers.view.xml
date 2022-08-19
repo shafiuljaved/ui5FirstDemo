@@ -3,9 +3,10 @@
     <content>
         <List noDataText="Drop list items here" id="list0" items="{/BusinessPartnerSet}">
             <items>
-                <StandardListItem type="Navigation" title="List Item 1 Shaf {CompanyName}" description="Description text{WebAddress}" icon="sap-icon://picture" id="item0"/>
+                <StandardListItem type="Navigation" title="List Item 1 Shaf {CompanyName}" description="Description text{WebAddress}" icon="sap-icon://education" id="item0" press="onNavigation" highlight="{highlight}"/>
             </items>
         </List>
+        <Text xmlns="sap.m" text="Text" id="text0"/>
     </content>
     </Page>
 </mvc:View>
